@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-// Component thẻ sinh viên
+
 function StudentCard({ name, age, className }) {
   const [showDetail, setShowDetail] = useState(false);
 
@@ -17,7 +17,7 @@ function StudentCard({ name, age, className }) {
   );
 }
 
-// Component chính
+
 function App() {
   const students = [
     { name: "Nguyễn Văn A", age: 20, className: "CNTT1" },
